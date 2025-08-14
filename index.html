@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Site</title>
+    <link rel="shortcut icon" href="./images/Yellow_Orange_Simple_Supermarket_Logo__2_-removebg-preview.png" type="image/x-icon">
+    <style>
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+  font-size: small;
+}
+nav ul{
+  display: inline-block;
+  list-style-type:none;
+
+}
+nav ul li{
+  display:inline-block;
+  margin-right: 30px;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+.add{
+    display:flex ;
+    background-color: rgb(58, 154, 249);
+    
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    
+}
+p{
+    color: aliceblue;
+    
+   margin-left: -40px;
+    font-size: 12px;
+}
+
+ 
+.imgs{
+    margin-right: -100px;
+}
+
+
+/*End navabar*/
+
+/*slider start*/
+.slider{
+  width: 100%;
+  height: 50vh;
+  animation: slider 10s infinite alternate;
+
+  transition: 0.5s ease-in-out all;
+  
+  
+}
+@keyframes slider{
+  0%{
+  background-image: url(./images/Untitled\ design\ \(3\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+  25%{
+  background-image: url(./images/Untitled\ design\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+50%{
+  background-image: url(./images/Untitled\ design\ \(2\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+75%{
+  background-image: url(./images/Untitled\ design\ \(3\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+100%{
+  background-image: url(./images/Untitled\ design\ \(4\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+}
+
+.h1{
+  font-size: 45px;
+  margin-left: 12%;
+ margin-top: -2%;
+  padding-top: 20%;
+}
+button{
+  font-size: 10px;
+  margin-left: 12%;
+  color: aliceblue;
+  background-color: rgb(58, 154, 249);
+  margin-top: 1%;
+  width: 100px;
+  height: 38px;
+  border: 0px white;
+}
+/*slider end*/
+.fourmain{
+  display: flex;
+  width: 100%;
+}
+.four{
+  margin-left: 10%;
+  display: flex;
+}
+.product{
+  display: flex;
+}
+.products{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.products:hover{
+  margin-left: 10%;
+  margin-top: 5%;
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+}
+h4{
+  text-align: center;
+  margin-bottom:10%;
+  margin-top: 5%;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: inherit;
+  color: rgb(58, 154, 249);
+
+}
+.featuredproduct{
+  text-align: center;
+  margin-top: -8%;
+}
+.products1{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.products1button{
+  font-size: 10px;
+  color: aliceblue;
+  background-color: rgb(58, 154, 249);
+  width: 100px;
+  height: 38px;
+  border: 0px white;
+  margin-top: 5%;
+  margin-left: -1%;
+ 
+}
+.products1button:hover{
+  font-size: 10px;
+  color: rgb(58, 154, 249);
+  background-color: wheat; 
+  width: 100px;
+  height: 38px;
+  border: 3px solid black;
+  margin-top: 5%;
+  margin-left: -1%;
+ cursor: pointer;
+}
+.buttons{
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-left: 45%;
+margin-top: 8%;
+margin-bottom: 2%;
+font-size: 12px;
+width: 150px;
+
+}
+.footer{
+  width: 100%;
+  height: 60vh;
+  background-color: #555;
+  color: aliceblue;
+  display: flex;
+}
+.footer1{
+  margin-left: 5%;
+  display: block;
+  margin-top: 5%;
+  width: 25%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+
+    </style>
+</head>
+<body>
+  <!--navbar start-->
+    <div class="add">
+        <p>
+            Free Shipping on $50+, Free Returns on All Orders.
+            
+            </p>
+            <div class="imgs">
+            <img src="./images/./104461_twitter_icon.png" alt="" width="18px">
+            <img src="./images/1161954_instagram_icon.png" alt=""width="18px">
+            <img src="./images/353422_facebook_logo_icon.png" alt="" srcset=""width="18px">
+        </div>
+    </div>
+   <div class="navbar"> 
+    
+     <div class="logo">
+        <img src="./images/Yellow_Orange_Simple_Supermarket_Logo__2_-removebg-preview.png" alt="" width="300px" >
+    </div>
+
+       <nav>
+        <ul>
+           
+        <li><a href="./index.php">Home</a></li>
+        <li>Shop</li>
+        <li><a href="./about.php">About</a></li>
+        <li>Contact</li>
+        <li>Account</li>
+        
+        </ul>
+    
+    </nav>
+
+</div>
+<!--navbar end-->
+<!--slider start-->
+<div class="slider">
+ <h1 class="h1">Shopetrade LLC</h1>
+ <button>SHOP NOW</button>
+</div>
+<!--slider end-->
+<!--divfour start-->
+<div class="fourmain">
+<div class="four">
+  
+    <img src="./images/shipping_01.png" alt=""  width="30px" height="30px" style="margin-top: 8%; margin-left: -5%;">
+    <p style="color: black; margin-left: 0%; margin-top:8%;">
+      <b>Free Delivery</b> <br>For all orders over $99</p>
+  </div>
+  <div class="four">
+  
+    <img src="./images/money-bac-2.png" alt="" width="30px" height="30px" style="margin-top: 8%;">
+    <p style="color: black; margin-left: 0%; margin-top:8%;">
+      <b>Free Delivery</b> <br>For all orders over $99</p>
+  </div>
+  <div class="four">
+    <img src="./images/payment-150x150.png" alt="" width="30px" height="30px" style="margin-top: 8%;">
+    <p style="color: black; margin-left: 0%; margin-top:8%;">
+      <b>
+        Secure Payment</b> <br>100% secure payment,</p>
+  </div>
+  <div class="four">
+    <img src="./images/8678080_customer_service_fill_support_icon-150x150.png" alt="" width="30px" height="30px" style="margin-top: 8%;">
+    <p style="color: black; margin-left: 0%; margin-top:8%;">
+      <b>
+        
+24/7 Help Center</b> <br>Dedicated support</p>
+  </div>
+</div>
+<!--divfour end-->
+
+<div class="product">
+  <div class="products">
+    <img src="./images/freestocks-AFvUO61NlOU-unsplash-1-qwayj2kvsnwdylda0r09si09qjoa7hzxd05qspl6pq.jpg" alt="" width="250px" height="200px">
+    <h3 style="margin-top: 4%;"><b>Beauty & Health</b></h3>
+    <p style="color: black; margin-left: 0%;">veiw all</p>
+  </div>
+  <div class="products">
+    <img src="images/hand-sanitizer-qw9juw6lq5h1p2liw1b06xwazhcumgea96f6itxzjy.png" width="200px" height="200px" alt="">
+    <h3 style="margin-top: 4%;"><b>Health & Household</b></h3>
+    <p style="color: black; margin-left: 0%;">veiw all</p>
+  </div>
+  <div class="products">
+    <img src="./images/61RK1TExuKL._AC_SX522_-qw9b3740cbb4bv5xc2ov93u0hndue43qimjcy813cu.jpg" alt="" srcset="" width="250px" height="200px">
+    <h3 style="margin-top: 4%;"><b>Home & Kitchen</b></h3>
+    <p style="color: black; margin-left: 0%;">veiw all</p>
+  </div>  
+</div>
+<div class="product">
+  <div class="products">
+    <img src="./images/pet-supplies1-qwbbflfja5spl4mej1jvis1y8o3h6l4hk6l7uiu1q6.png" alt="" width="250px" height="200px">
+    <h3 style="margin-top: 4%;"><b>Pet Supplies</b></h3>
+    <p style="color: black; margin-left: 0%;">veiw all</p>
+  </div>
+  <div class="products">
+    <img src="images/0dc29e8d-8c8b-4827-80e9-ed3dd90b80c1.f3ed2db6a16703723660e70a8b608c2d-qwda5y7sk3hgvbsajl8yzhhxkf44ozjt6qmscbd4zi.jpeg" width="200px" height="200px" alt="">
+    <h3 style="margin-top: 4%;"><b>Office Supplies</b></h3>
+    <p style="color: black; margin-left: 0%;">veiw all</p>
+  </div>
+
+</div>
+<div class="sale">
+  <h4 class="h4"><b>TOP SALE ON THIS WEEK</b></h4>
+</div>
+<div class="featuredproduct">
+  <h1>FEATURES PRODUCT</h1>
+</div>
+<div class="product1">
+  <div class="product">
+    <div class="products1">
+      <img src="./images/freestocks-AFvUO61NlOU-unsplash-1-qwayj2kvsnwdylda0r09si09qjoa7hzxd05qspl6pq.jpg" alt="" width="250px" height="200px">
+      <h3 style="margin-top: 4%;"><b>Beauty & Health</b></h3>
+      <p style="color: black; margin-left: 0%;">$9.22</p>
+      <button class="products1button">ADD TO CART</button>
+
+    </div>
+    <div class="products1">
+      <img src="images/hand-sanitizer-qw9juw6lq5h1p2liw1b06xwazhcumgea96f6itxzjy.png" width="200px" height="200px" alt="">
+      <h3 style="margin-top: 4%;"><b>Health & Household</b></h3>
+      <p style="color: black; margin-left: 0%;">veiw all</p>
+      <button class="products1button">ADD TO CART</button>
+    </div>
+    </div>
+</div>
+<button class="buttons">View All Products</button>
+<div class="footer">
+<div class="footer1">Contact Us
+  <li style="list-style-type: none; margin-top:5%;">Call Us</li>
+  <li style="list-style-type: none; margin-top: 8%;">+100000000</li>
+  <li style="list-style-type: none; margin-top:5%;">Email</li>
+  <li style="list-style-type: none; margin-top: 8%;">ABC@GMAIL.COM</li>
+  
+
+</div>
+<div class="footer1">Best Categories
+  <li style="list-style-type: none; margin-top:5%;">Beauty & Health</li>
+  <li style="list-style-type: none; margin-top: 2%;">Health & House hold</li>
+  <li style="list-style-type: none; margin-top:2%;">Home & Kitchen</li>
+  <li style="list-style-type: none; margin-top: 2%;">Pet supplies</li>
+  <li style="list-style-type: none; margin-top: 2%;">Office supplies</li>
+</div>
+
+<div class="footer1">Useful Links
+  <li style="list-style-type: none; margin-top:5%; border-bottom: 1px solid white; margin-bottom: -1%;">Terms & conditions</li>
+</div>
+
+<div class="footer1">ACCOUNT
+  
+</div>
+
+
+</div>
+</body>
+</html>
